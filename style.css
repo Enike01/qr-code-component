@@ -38,3 +38,23 @@ section{
 img{
     border-radius: 10px;
 }
+
+@media screen and (max-width:760px){
+    section{
+        width: 40%;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    section{
+        width: 45%;
+    }
+
+    img{
+        width: 100%;
+    }
+}
